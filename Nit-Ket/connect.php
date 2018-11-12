@@ -1,0 +1,1 @@
+<?php $conn = new mysqli('localhost','id1123191_nitket','id1123191_nitket','id1123191_nitket'); ?>

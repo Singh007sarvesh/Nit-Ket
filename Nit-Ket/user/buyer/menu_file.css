@@ -1,0 +1,120 @@
+/*DROPDOWN
+*/
+/* Style The Dropdown Button */
+body{width:103%;
+margin-left:-8px;
+padding-left:-8px;
+
+margin-top:-8px;
+padding-top:-8px;
+
+}
+.dropbtn {
+    margin-top:-13px;
+    color: white;
+	height:25px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	background-color:hsla(207,78%,39%,1.00);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+	background-color:hsla(207,78%,39%,1.00);
+	height:auto;
+    position: absolute;
+	z-index:999999;
+    width: 150px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   hsla(207,78%,39%,1.00)
+    padding-top:-50px;
+	line-height:0px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	padding-top:-50px;	
+	background-color: hsla(207,78%,39%,1.00)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+   
+}
+
+/* */
+
+#drop ul li{
+	font-size:50px;
+	display: none;
+    position: absolute;
+	
+	display :none;
+}
+#drop:hover #drop ul li {
+	display:inlineblock;
+	
+	font-size:36px;
+	}
+
+.menu{
+	background-color:hsla(207,78%,39%,1.00);
+	  height:55px;
+	  width:100%;
+	  border-color:#F0E5E5;
+	  
+}
+
+.menu ul 
+{
+	z-index:9999;
+	list-style-type:none;
+	text-align:center;
+	border-radius:5px;
+}
+
+.menu ul li{
+	 font-size: 16px;
+	display:inline-block;
+	height:60px;
+	width:9%;
+	margin-top:1px;
+	list-style-type:none;
+	float:left;
+}
+
+.menu a {
+	 font-size: 16px;
+	text-decoration:none;
+	line-height:40px;
+	width:80px;
+	
+	
+	display:inline-block;
+	color:hsla(0,19%,93%,1.00);
+	border-radius:5px 5px 5px 5px;
+}
+
+.menu ul li a:hover{
+	
+	color:hsla(78,90%,40%,1.00);
+	text-height:45px;
+}

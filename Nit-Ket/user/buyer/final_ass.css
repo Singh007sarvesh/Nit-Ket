@@ -1,0 +1,49 @@
+* {margin:2px;
+padding:2px;
+}
+
+.header {
+	height:220px;
+	width:auto;
+	background-color:hsla(359,61%,68%,1.00);
+	
+}
+
+.header h1 {
+	margin-top:60px;
+	font-size:60px;
+	font-family:georgia;
+	color:#00008B;
+	font-weight:bold;
+}
+
+#care {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color:hsla(149,87%,56%,1.00);
+	font-size:65px;
+}
+.head1 {
+	width:auto;
+	padding-top:0px;
+}
+
+.footer {
+	height:65px;
+	background-color:cyan;
+	width:auto;
+	
+	clear:both;
+}
+
+.footer h3{
+	margin-top:25px;
+	text-align:center;
+	font-family:arial;
+	font-weight:300px;
+}
+	
+.center {
+	margin-left:25px;
+	margin-right:20px;
+	width:auto;
+}
